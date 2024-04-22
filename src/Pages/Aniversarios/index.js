@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../Components/Header';
 import aniversarios from '../../bases/dadosAniversarios';
-import './index.css';
+import '../stylecards.css';
 
 function AniversariosPage() {
   const enviarMensagemWhatsApp = (produto) => {

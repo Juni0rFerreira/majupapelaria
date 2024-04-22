@@ -31,3 +31,13 @@
   font-size: 4vmin;
   text-decoration: none;
 }
+
+@media (max-width: 600px) { 
+  .App-header {
+    min-height: 40vh;
+  }
+
+  .links-categorias {
+    gap: 40px;
+  }
+}

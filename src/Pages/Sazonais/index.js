@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../../Components/Header';
-import './index.css';
+import '../stylecards.css';
 
 function SazonaisPage() {
   

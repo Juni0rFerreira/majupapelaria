@@ -42,3 +42,16 @@
 .btn-contato:hover {
   background-color: #BC4ED8;
 }
+
+@media (max-width: 600px) {
+  .container-banner {
+    height: 20rem;
+  }
+
+  .contato {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    font-size: 8px; 
+  }
+}

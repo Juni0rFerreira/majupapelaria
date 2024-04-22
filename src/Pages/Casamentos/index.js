@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../../Components/Header';
 import logomaju from '../../assets/imgs/logomaju.png';
 import casamentos from '../../bases/dadosCasamento';
-import './index.css';
+import '../stylecards.css';
 
 function CasamentosPage() {
   const enviarMensagemWhatsApp = (produto) => {

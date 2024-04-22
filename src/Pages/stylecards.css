@@ -1,13 +1,16 @@
+/* Your initial styles */
+
 .container-cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around; /* Change to distribute space evenly between items */
 }
 
 .card {
   background-color: transparent;
   border: 1px solid black;
-  width: calc(33.33% - 180px); 
+  width: calc(33.33% - 20px); /* Adjusted width for all screen sizes */
+  max-width: 300px; /* Added to prevent cards from becoming too wide */
   margin: 10px;
   border-radius: 12px;
   box-shadow: 4px 4px 12px #AAAAAA;
@@ -65,4 +68,11 @@
   gap: 5px;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: calc(50% - 2px); /* Adjusted width for smaller screens */
+    max-width: 100%; /* Allow cards to take full width on small screens */
+  }
 }
