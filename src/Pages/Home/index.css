@@ -1,0 +1,44 @@
+@import url('https://fonts.google.com/specimen/Baskervville?query=baske');
+
+.App {
+  text-align: center;
+}
+
+.sobre {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+}
+
+
+.container-banner {
+  width: 100%;
+  height: 35rem;
+}
+
+.contato {  
+  color: #FFFFFF;
+  margin-left: 20vmin;
+  margin-right: 20vmin;
+  margin-bottom: 10vmin;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+
+.btn-contato {
+  font-weight: 700;
+  font-size: 2vmin;
+  background-color: #7F00B2;
+  border-radius: 8px;
+  width: 35vmin;
+  height: 5vmin;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.btn-contato:hover {
+  background-color: #BC4ED8;
+}

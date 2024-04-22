@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+// App.js
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Homepage from './Pages/Home/index.js';
+import CasamentosPage from './Pages/Casamentos/index.js'; // Importe o componente da página de casamentos
+import AniversariosPage from './Pages/Aniversarios/index.js'; // Importe o componente da página de aniversários
+import SazonaisPage from './Pages/Sazonais/index.js'; // Importe o componente da página de sazonais
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Homepage />} />
+        <Route path='/casamentos' element={<CasamentosPage />} /> 
+        <Route path='/aniversarios' element={<AniversariosPage />} /> 
+        <Route path='/sazonais' element={<SazonaisPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

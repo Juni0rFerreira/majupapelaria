@@ -1,0 +1,25 @@
+.custom-btn {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2vmin;
+    background-color: #7F00B2;
+    border-radius: 8px;
+    width: 35vmin;
+    height: 5vmin;
+    cursor: pointer;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .custom-btn:hover {
+    background-color: #BC4ED8;
+  }
+  
+  .whatsapp-icon {
+    margin-right: 5px; /* Adicione um espaçamento entre o ícone e o texto */
+    color: #fff;
+    background-color: black;
+  }
+  

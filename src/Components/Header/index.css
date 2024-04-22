@@ -1,0 +1,33 @@
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+.App-header {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1.5vmin);
+  color: white;
+}
+
+.links-categorias {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  background-color: #7F00B2;
+  align-items: center;
+  width: 100%;
+  height: 7vmin;
+}
+
+.links {
+  color: #68BBDB;
+  font-weight: 700;
+  background-color: #7F00B2;
+  font-size: 4vmin;
+  text-decoration: none;
+}
