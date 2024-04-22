@@ -11,6 +11,8 @@ function SazonaisPage() {
         
       </div>
       <p>Site criado pela Maju Holding.</p>
+      <br />
+      <p><i><b>Localizada em São José do Rio Preto-SP</b></i></p>
     </div>
   );
 }
