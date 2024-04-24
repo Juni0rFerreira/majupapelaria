@@ -6,6 +6,7 @@ import caixaexplosaodiadasmaes from '../assets/imgs/sazonais/caixaexplosaodiadas
 import caixasextavadadiadasmaes from '../assets/imgs/sazonais/caixasextavadadiadasmaes.jpeg'
 import cestadiadosnamorados from '../assets/imgs/sazonais/cestadiadosnamorados.jpeg'
 import caixacervejadiadospais from '../assets/imgs/sazonais/caixacervejadiadospais.jpeg'
+import caixapresentediadospais from '../assets/imgs/sazonais/caixapresentediadospais.jpeg'
 
 const sazonais = [
 
@@ -50,6 +51,12 @@ const sazonais = [
     descricao: "",
     valor: 14.99,
     imagem: caixacervejadiadospais,
+  },  
+  {
+    nome: "Caixa Presente Dia dos Pais",
+    descricao: "",
+    valor: 19.99,
+    imagem: caixapresentediadospais,
   },  
   
 ];
