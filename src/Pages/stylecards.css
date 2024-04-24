@@ -1,33 +1,33 @@
 .App {
-  
+  /* Estilos globais da sua aplicação */
 }
 
 .container-cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; /* Change to distribute space evenly between items */
+  justify-content: space-around;
 }
 
 .card {
-  background-color: transparent;
-  border: 1px solid black;
-  width: calc(33.33% - 20px); /* Adjusted width for all screen sizes */
-  max-width: 300px; /* Added to prevent cards from becoming too wide */
-  margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
   border-radius: 12px;
-  box-shadow: 4px 4px 12px #AAAAAA;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+  width: calc(33.33% - 20px);
+  max-width: 300px;
+  margin: 10px;
 }
 
 .card img {
   width: 100%;
-  height: auto;
+  height: 280px; 
+  object-fit: cover;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
 
 .card div {
   padding: 10px;
-  background-color: white;
 }
 
 .card h1 {
@@ -38,20 +38,16 @@
 .card-body h1,
 .card-body p {
   margin: 0;
-  padding: 0;
-  background-color: white;
 }
 
 .card span {
   font-size: 1.3rem;
   font-weight: bold;
-  color: black;
-  background-color: white;
 }
 
 .card button {
   background-color: #038554;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 1rem;
   font-weight: bold;
   border: none;
@@ -74,7 +70,11 @@
 
 @media (max-width: 600px) {
   .card {
-    width: calc(50% - 2px); /* Adjusted width for smaller screens */
-    max-width: 100%; /* Allow cards to take full width on small screens */
+    width: calc(50% - 20px); /* Reduzi a largura para telas menores */
+    margin: 10px 0; /* Removi a margem horizontal e ajustei a margem vertical */
+  }
+
+  .card img {
+    height: 150px; /* Reduzi a altura da imagem para telas menores */
   }
 }

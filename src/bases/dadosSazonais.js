@@ -1,39 +1,44 @@
-import fundoitens from "./assets/imgs/fundoitens.png";
-import vipbronze from "./assets/imgs/vipbronze.png";
-import vipprata from "./assets/imgs/vipprata.png";
+import balaspersonalizadas from '../assets/imgs/sazonais/balaspersonalizadas.jpeg'
+import caixacoracao from '../assets/imgs/sazonais/caixacoracao.jpeg'
+import portaretratodiadasmaes from '../assets/imgs/sazonais/portaretratodiadasmaes.jpeg'
+import caixaexplosaodiadasmaes from '../assets/imgs/sazonais/caixaexplosaodiadasmaes.jpg'
+import caixasextavadadiadasmaes from '../assets/imgs/sazonais/caixasextavadadiadasmaes.jpeg'
 
-const vips = [
+
+const sazonais = [
+
   {
-    nome: "Vip Bronze",
-    descricao: "Duração 30 dias",
-    coins: 30,
-    imagem: vipbronze,
+    nome: "Balas Personalizadas",
+    descricao: "100 unidades",
+    valor: 59.99,
+    imagem: balaspersonalizadas,
   },
   {
-    nome: "Vip Prata",
-    descricao: "Duração 30 dias",
-    coins: 50,
-    imagem: vipprata,
-  },
+    nome: "Caixa Coração",
+    descricao: "13x14.8",
+    valor: 12.99,
+    imagem: caixacoracao,
+  },  
   {
-    nome: "Vip Ouro",
-    descricao: "Duração 30 dias",
-    coins: 70,
-    imagem: fundoitens,
-  },
+    nome: "Porta Retrato Dia das Mães",
+    descricao: "19.8x15",
+    valor: 19.99,
+    imagem: portaretratodiadasmaes,
+  },  
   {
-    nome: "Vip CopacabanaRJ",
-    descricao: "Duração 30 dias",
-    coins: 100,
-    imagem: fundoitens,
-  },
+    nome: "Caixa Sextavada Dia das Mães",
+    descricao: "",
+    valor: 12.99,
+    imagem: caixasextavadadiadasmaes,
+  },  
   {
-    nome: "Vip Mega CopacabanaRJ",
-    descricao: "Duração 30 dias",
-    coins: 150,
-    imagem: fundoitens,
-  },
+    nome: "Caixa Explosão Dia da Mães",
+    descricao: "",
+    valor: 14.99,
+    imagem: caixaexplosaodiadasmaes,
+  },  
+  
 ];
 
-export default vips;
+export default sazonais;
 
