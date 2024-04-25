@@ -16,14 +16,15 @@ function HomePage() {
     <div className="App">
       <Header />
       <div className='contato'>
-        <h1 className='sobre'>Olá, meu nome é Mariana, e sou especialista no ramo de papelaria há 5 anos. Durante esse tempo, tenho criado uma variedade de kits personalizados para casamentos, aniversários e outras ocasiões especiais. Se você está procurando por convites únicos que reflitam o seu estilo pessoal, estou aqui para ajudar!</h1>
-        <h1 className='sobre'>Com minha experiência e dedicação, estou pronta para colaborar com você na criação do seu próprio kit personalizado. Juntos, podemos transformar suas ideias em realidade, criando convites e materiais que serão verdadeiramente memoráveis.</h1>
-        <h1 className='sobre'>Entre em contato comigo para começarmos a planejar o seu kit personalizado. Estou animada para trabalhar em conjunto e tornar seu evento ainda mais especial com convites que se destacam!</h1>
-        <button className='custom-btn' onClick={() => enviarMensagemWhatsApp()}>Entre em contato!</button>
-
+        <h1 className='sobre'>Precisando criar um convite, mas está sem ideias?</h1>
+        <h1 className='sobre'>Venha conhecer Maju Papelaria Personalizada. Contamos com uma variedade de kits personalizados para ocasiões especiais. Se você está procurando por convites únicos que reflitam o seu estilo pessoal, estamos aqui para ajudar, com diversos modelos de convites personalizados esperando por você.</h1>
+        <h1 className='sobre'>Com experiência e dedicação, estamos há mais de 5 anos no mercado e vamos colaborar com você na criação do seu próprio kit e juntos, podemos transformar suas ideias em realidade, tornando seus momentos verdadeiramente memoráveis em todas as ocasiões que você tem ao longo do tempo, seja aniversário, casamento, chá de fralda, batizado, festa junina, formatura e outros.</h1>
+        <h1 className='sobre'>Nossa ampla variedade de convites lhe confere sempre um belíssimo convite em qualquer circunstância.</h1>
+        <h1 className='sobre'>Entre em contato para começarmos a planejar. Agora que as dúvidas foram esclarecidas aproveite e crie seu convite personalizado agora, basta clicar no botão abaixo.</h1>
+        <button className='custom-btn' onClick={() => enviarMensagemWhatsApp()}>Entre em contato</button>
       </div>
       <p>Site criado pela Maju Holding.</p>
-      <br />
+      <br/>
       <p><i><b>Localizada em São José do Rio Preto-SP</b></i></p>
     </div>
   );

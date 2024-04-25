@@ -26,7 +26,7 @@ function AniversariosPage() {
               <h1>{aniversario.nome}</h1>
               <p>{aniversario.descricao}</p>
               <span>R$ {aniversario.valor.toFixed(2).replace('.', ',')}</span>
-              <button onClick={() => enviarMensagemWhatsApp(aniversario)}>Entre em contato!</button>
+              <button onClick={() => enviarMensagemWhatsApp(aniversario)}>Comprar</button>
             </div>
           </div>
         ))}

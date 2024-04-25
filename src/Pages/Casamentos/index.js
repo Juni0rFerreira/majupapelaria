@@ -27,7 +27,7 @@ function CasamentosPage() {
               <h1>{casamento.nome}</h1>
               <p>{casamento.descricao}</p>
               <span>R$ {casamento.valor.toFixed(2).replace('.', ',')}</span>
-              <button onClick={() => enviarMensagemWhatsApp(casamento)}>Entre em contato!</button>
+              <button onClick={() => enviarMensagemWhatsApp(casamento)}>Comprar</button>
             </div>
           </div>
         ))}
