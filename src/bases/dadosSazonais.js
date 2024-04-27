@@ -1,7 +1,7 @@
 
 import balaspersonalizadas from '../assets/imgs/sazonais/balaspersonalizadas.jpeg'
 import caixacoracao from '../assets/imgs/sazonais/caixacoracao.jpeg'
-import portaretratodiadasmaes from '../assets/imgs/sazonais/portaretratodiadasmaes.jpeg'
+import portaretratodiadasmaes from '../assets/imgs/sazonais/portaretratodiadasmaes.jpg'
 import caixaexplosaodiadasmaes from '../assets/imgs/sazonais/caixaexplosaodiadasmaes.jpg'
 import caixasextavadadiadasmaes from '../assets/imgs/sazonais/caixasextavadadiadasmaes.jpeg'
 import cestadiadosnamorados from '../assets/imgs/sazonais/cestadiadosnamorados.jpeg'
@@ -27,13 +27,13 @@ const sazonais = [
     nome: "Porta Retrato Dia das Mães",
     descricao: "19.8x15",
     valor: 19.99,
-    imagem: caixaexplosaodiadasmaes,
+    imagem: portaretratodiadasmaes,
   },  
   {
     nome: "Caixa Explosão Dia das Mães",
     descricao: "",
     valor: 14.99,
-    imagem: portaretratodiadasmaes,
+    imagem: caixaexplosaodiadasmaes,
   },  
   {
     nome: "Caixa Sextavada Dia das Mães",
