@@ -3,6 +3,8 @@
 .App {
   text-align: center;
   background-color: #B57EDC;
+  width: 100%;
+  height: 100%;
 }
 
 .sobre {
@@ -10,16 +12,15 @@
   font-weight: 400;
 }
 
-
 .container-banner {
   width: 100%;
   height: 35rem;
 }
 
-.contato {  
+.contato {
   color: #FFFFFF;
-  margin-left: 20vmin;
-  margin-right: 20vmin;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-bottom: 10vmin;
   font-size: 14px;
   display: flex;
@@ -29,13 +30,37 @@
   gap: 50px;
 }
 
+.categoria-casamento{
+  margin-bottom: 30px;
+}
+
+.link-centralizado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-decoration: none;
+  font-size: 45px;
+  color: #FFFFFF;
+  background: #7F00B2;
+  width: 18rem;
+  border-radius: 8px;
+  align-items: center;
+  border: 2px solid #7F00B2;
+}
+
+.link-centralizado:hover {
+  background-color: #BC4ED8;
+}
+
 .btn-contato {
   font-weight: 700;
-  font-size: 2vmin;
+  font-size: 16px;
   background-color: #7F00B2;
   border-radius: 8px;
-  width: 35vmin;
-  height: 5vmin;
+  width: 80%;
+  height: 50px;
   cursor: pointer;
   margin: 0 auto;
 }
@@ -47,11 +72,11 @@
 .custom-btn {
   color: #fff;
   font-weight: 700;
-  font-size: 3vmin;
+  font-size: 16px;
   background-color: #7F00B2;
   border-radius: 8px;
-  width: 50vmin;
-  height: 10vmin;
+  width: 80%;
+  height: 100px;
   cursor: pointer;
   margin: 0 auto;
   display: flex;
@@ -65,22 +90,22 @@
 }
 
 .whatsapp-icon {
-  margin-right: 5px; /* Adicione um espaçamento entre o ícone e o texto */
+  margin-right: 5px;
   color: #fff;
   background-color: black;
 }
 
 .timer {
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .timer span {
-  margin: 0 1rem;
-  padding: 1rem;
-  background-color: #7F00B2 ;
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  background-color: #7F00B2;
   color: #fff;
   border-radius: 0.5rem;
 }
@@ -93,40 +118,43 @@
   margin-right: 0;
 }
 
-@media (max-width: 600px) {
+/* Media query para dispositivos com largura de até 600px (celulares) */
+@media only screen and (max-width: 600px) {
+
+  .link-centralizado {
+    font-size: 24px; /* Reduz o tamanho da fonte para dispositivos móveis */
+    width: 8rem; /* Ajusta a largura para ocupar 80% da largura da tela */
+    padding: 10px; /* Adiciona um preenchimento interno */
+    text-align: center; /* Centraliza o texto */
+  }
+
   .container-banner {
-    height: 20rem;
+    height: 20rem; /* Ajuste a altura do banner para dispositivos móveis */
+  }
+
+  .sobre {
+    font-size: 1rem;
   }
 
   .contato {
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 5%;
-    font-size: 8px; 
+    margin-bottom: 5vmin;
   }
 
+  .btn-contato,
   .custom-btn {
-    color: #fff;
-    font-weight: 700;
-    font-size: 3vmin;
-    background-color: #7F00B2;
-    border-radius: 8px;
-    width: 50vmin;
-    height: 10vmin;
-    cursor: pointer;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 14px;
+    width: 90%;
+    height: 40px;
   }
-  
-  .custom-btn:hover {
-    background-color: #BC4ED8;
+
+  .timer {
+    font-size: 1rem;
   }
-  
-  .whatsapp-icon {
-    margin-right: 5px; /* Adicione um espaçamento entre o ícone e o texto */
-    color: #fff;
-    background-color: black;
+
+  .timer span {
+    padding: 0.5rem;
+    font-size: 0.8rem;
   }
 }

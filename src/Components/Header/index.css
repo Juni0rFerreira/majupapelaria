@@ -34,12 +34,23 @@
   text-decoration: none;
 }
 
-@media (max-width: 600px) { 
+@media only screen and (max-width: 600px) {
+  .App-logo {
+    height: 15vmin; /* Reduz ainda mais a altura do logo */
+  }
+
   .App-header {
-    min-height: 40vh;
+    min-height: 15vh; /* Reduz ainda mais a altura do cabeçalho */
   }
 
   .links-categorias {
-    gap: 40px;
+    gap: 10px; /* Reduz o espaçamento entre os links */
+    margin-top: 5px; /* Reduz ainda mais a margem superior */
+    padding: 5px; /* Reduz o preenchimento interno */
+  }
+
+  .links {
+    font-size: 2.5vmin; /* Reduz ainda mais o tamanho da fonte dos links */
+    padding: 3px 8px; /* Reduz o preenchimento interno dos links */
   }
 }
