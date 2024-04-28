@@ -11,6 +11,7 @@ import convitevitoria2 from '../assets/imgs/casamentos/convitevitoria2.jpg';
 import manualdospadrinhos from '../assets/imgs/casamentos/manualdospadrinhos.jpg';
 import caixadoisbombons from '../assets/imgs/casamentos/caixadoisbombons.jpg';
 import caixapadrinhoscamille from '../assets/imgs/casamentos/caixapadrinhoscamille.jpg';
+import lagrimasdealegria from '../assets/imgs/casamentos/lagrimasdealegria.jpg';
 
 const casamentos = [
 
@@ -91,6 +92,12 @@ const casamentos = [
     descricao: "18.5x21",
     valor: 20.00,
     imagem: caixapadrinhoscamille,
+  },
+  {
+    nome: "Lágrimas de Alegria",
+    descricao: "11x6.5",
+    valor: 1.50,
+    imagem: lagrimasdealegria,
   },
   
 ];

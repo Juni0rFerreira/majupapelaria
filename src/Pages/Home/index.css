@@ -70,6 +70,29 @@
   background-color: black;
 }
 
+.timer {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer span {
+  margin: 0 1rem;
+  padding: 1rem;
+  background-color: #7F00B2 ;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+.timer span:first-child {
+  margin-left: 0;
+}
+
+.timer span:last-child {
+  margin-right: 0;
+}
+
 @media (max-width: 600px) {
   .container-banner {
     height: 20rem;

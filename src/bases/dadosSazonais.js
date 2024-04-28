@@ -1,13 +1,18 @@
 
-import balaspersonalizadas from '../assets/imgs/sazonais/balaspersonalizadas.jpeg'
-import caixacoracao from '../assets/imgs/sazonais/caixacoracao.jpeg'
-import portaretratodiadasmaes from '../assets/imgs/sazonais/portaretratodiadasmaes.jpg'
-import caixaexplosaodiadasmaes from '../assets/imgs/sazonais/caixaexplosaodiadasmaes.jpg'
-import caixasextavadadiadasmaes from '../assets/imgs/sazonais/caixasextavadadiadasmaes.jpeg'
-import cestadiadosnamorados from '../assets/imgs/sazonais/cestadiadosnamorados.jpeg'
-import caixacervejadiadospais from '../assets/imgs/sazonais/caixacervejadiadospais.jpeg'
-import caixapresentediadospais from '../assets/imgs/sazonais/caixapresentediadospais.jpeg'
-import caixadiamantediadasmaes from '../assets/imgs/sazonais/caixadiamantediadasmaes.jpg'
+import balaspersonalizadas from '../assets/imgs/sazonais/balaspersonalizadas.jpeg';
+import caixacoracao from '../assets/imgs/sazonais/caixacoracao.jpeg';
+import portaretratodiadasmaes from '../assets/imgs/sazonais/portaretratodiadasmaes.jpg';
+import caixaexplosaodiadasmaes from '../assets/imgs/sazonais/caixaexplosaodiadasmaes.jpg';
+import caixasextavadadiadasmaes from '../assets/imgs/sazonais/caixasextavadadiadasmaes.jpeg';
+import cestadiadosnamorados from '../assets/imgs/sazonais/cestadiadosnamorados.jpeg';
+import caixacervejadiadospais from '../assets/imgs/sazonais/caixacervejadiadospais.jpeg';
+import caixapresentediadospais from '../assets/imgs/sazonais/caixapresentediadospais.jpeg';
+import caixadiamantediadasmaes from '../assets/imgs/sazonais/caixadiamantediadasmaes.jpg';
+import caixagiratoriadiadospais from '../assets/imgs/sazonais/caixagiratoriadiadospais.jpg';
+import caixagiratoriadiadasmaes from '../assets/imgs/sazonais/caixagiratoriadiadasmaes.jpg';
+import caixamae from '../assets/imgs/sazonais/caixamae.jpg';
+import caixafotoebombons from '../assets/imgs/sazonais/caixafotoebombons.jpg';
+import caixabolsa from '../assets/imgs/sazonais/caixabolsa.jpg';
 
 const sazonais = [
 
@@ -64,6 +69,36 @@ const sazonais = [
     descricao: "9x9",
     valor: 8.99,
     imagem: caixadiamantediadasmaes,
+  },  
+  {
+    nome: "Caixa Giratória Dia dos Pais",
+    descricao: "14.7x14.7",
+    valor: 19.99,
+    imagem: caixagiratoriadiadospais,
+  },  
+  {
+    nome: "Caixa Giratória Dia das Mães",
+    descricao: "14.7x14.7",
+    valor: 19.99,
+    imagem: caixagiratoriadiadasmaes,
+  },  
+  {
+    nome: "Caixa Mãe",
+    descricao: "11x27.5",
+    valor: 24.99,
+    imagem: caixamae,
+  },  
+  {
+    nome: "Caixa foto e bombons",
+    descricao: "14.9x13.7",
+    valor: 24.99,
+    imagem: caixafotoebombons,
+  },  
+  {
+    nome: "Caixa Bolsa",
+    descricao: "12.5x8.3",
+    valor: 14.99,
+    imagem: caixabolsa,
   },  
   
 ];
