@@ -47,6 +47,7 @@
     gap: 10px; /* Reduz o espaçamento entre os links */
     margin-top: 5px; /* Reduz ainda mais a margem superior */
     padding: 5px; /* Reduz o preenchimento interno */
+    height: 3.5vmin;
   }
 
   .links {

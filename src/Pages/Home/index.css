@@ -3,8 +3,6 @@
 .App {
   text-align: center;
   background-color: #B57EDC;
-  width: 100%;
-  height: 100%;
 }
 
 .sobre {
@@ -18,55 +16,15 @@
 }
 
 .contato {
+  display: flex;
+  flex-direction: column;
   color: #FFFFFF;
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 10vmin;
-  font-size: 14px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  gap: 50px;
-}
-
-.categoria-casamento{
-  margin-bottom: 30px;
-}
-
-.link-centralizado {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  text-decoration: none;
-  font-size: 45px;
-  color: #FFFFFF;
-  background: #7F00B2;
-  width: 18rem;
-  border-radius: 8px;
-  align-items: center;
-  border: 2px solid #7F00B2;
-}
-
-.link-centralizado:hover {
-  background-color: #BC4ED8;
-}
-
-.btn-contato {
-  font-weight: 700;
   font-size: 16px;
-  background-color: #7F00B2;
-  border-radius: 8px;
-  width: 80%;
-  height: 50px;
-  cursor: pointer;
-  margin: 0 auto;
-}
-
-.btn-contato:hover {
-  background-color: #BC4ED8;
+  text-align: center;
+  gap: 15px;
 }
 
 .custom-btn {
@@ -75,24 +33,19 @@
   font-size: 16px;
   background-color: #7F00B2;
   border-radius: 8px;
-  width: 80%;
-  height: 100px;
+  width: 40%;
+  height: 80px;
   cursor: pointer;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   border: none;
+  margin-top: 20px;
 }
 
 .custom-btn:hover {
   background-color: #BC4ED8;
-}
-
-.whatsapp-icon {
-  margin-right: 5px;
-  color: #fff;
-  background-color: black;
 }
 
 .timer {
@@ -120,32 +73,16 @@
 
 /* Media query para dispositivos com largura de até 600px (celulares) */
 @media only screen and (max-width: 600px) {
-
-  .link-centralizado {
-    font-size: 24px; /* Reduz o tamanho da fonte para dispositivos móveis */
-    width: 8rem; /* Ajusta a largura para ocupar 80% da largura da tela */
-    padding: 10px; /* Adiciona um preenchimento interno */
-    text-align: center; /* Centraliza o texto */
-  }
-
-  .container-banner {
-    height: 20rem; /* Ajuste a altura do banner para dispositivos móveis */
-  }
-
-  .sobre {
-    font-size: 1rem;
-  }
-
   .contato {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5vmin;
+    font-size: 10px;
   }
 
-  .btn-contato,
   .custom-btn {
     font-size: 14px;
-    width: 90%;
+    width: 80%;
     height: 40px;
   }
 
