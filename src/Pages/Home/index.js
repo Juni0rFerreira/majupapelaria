@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from '../../Components/Header';
 import { format } from 'date-fns-tz'; // Importando a função format do date-fns-tz
+import fundocasamento from '../../assets/imgs/fundocasamento.png';
 import './index.css';
 
 function HomePage() {
@@ -12,10 +13,10 @@ function HomePage() {
     console.log('URL WhatsApp:', urlWhatsApp);
     window.open(urlWhatsApp, '_blank');
   };
-  
+
   // Calculando a data alvo (30/06/2024 às 18:00) no fuso horário de Brasília
   const targetDate = new Date("2024-05-12T18:00:00-03:00");
-  
+
   const calculateTimeRemaining = () => {
     // Obtendo a data atual no fuso horário de Brasília
     const currentDateTime = new Date();
@@ -44,45 +45,66 @@ function HomePage() {
         setShowCopacabana(true);
       }
     }, 1000);
-    
+
     // Limpando o timer ao desmontar o componente
     return () => clearTimeout(timer);
   }, [timeRemaining]);
 
-  
+
   return (
     <div className="App">
       <Header />
       <div>
-          <h1 style={{ color: '#7F00B2' }}>Dia das Mães</h1>
-          <br/>
-          <div className='timer'>
-            {showCopacabana ? (
-              <span>Dia das Mães Chegou!</span>
-            ) : (
-              
-              <>
-              
-                <span>{timeRemaining.days}d </span>
-                <span>{timeRemaining.hours}h </span>
-                <span>{timeRemaining.minutes}m </span>
-                <span>{timeRemaining.seconds}s </span>
-              </>
-            )}
-            
-          </div>
-          <br/>
+        <h1 style={{ color: '#7F00B2' }}>Dia das Mães</h1>
+        <br />
+        <div className='timer'>
+          {showCopacabana ? (
+            <span>Dia das Mães Chegou!</span>
+          ) : (
+
+            <>
+
+              <span>{timeRemaining.days}d </span>
+              <span>{timeRemaining.hours}h </span>
+              <span>{timeRemaining.minutes}m </span>
+              <span>{timeRemaining.seconds}s </span>
+            </>
+          )}
+
         </div>
+        <br />
+      </div>
+      
+
       <div className='contato'>
         <h1 className='sobre'>Precisando criar um convite, mas está sem ideias?</h1>
         <h1 className='sobre'>Venha conhecer Maju Papelaria Personalizada. Contamos com uma variedade de kits personalizados para ocasiões especiais. Se você está procurando por convites únicos que reflitam o seu estilo pessoal, estamos aqui para ajudar, com diversos modelos de convites personalizados esperando por você.</h1>
-        <h1 className='sobre'>Com experiência e dedicação, estamos há mais de 5 anos no mercado e vamos colaborar com você na criação do seu próprio kit e juntos, podemos transformar suas ideias em realidade, tornando seus momentos verdadeiramente memoráveis em todas as ocasiões que você tem ao longo do tempo, seja aniversário, casamento, chá de fralda, batizado, festa junina, formatura e outros.</h1>
-        <h1 className='sobre'>Nossa ampla variedade de convites lhe confere sempre um belíssimo convite em qualquer circunstância.</h1>
+      </div>
+      <div className='categoria-casamento' style={{ position: 'relative' }}>
+        <img src={fundocasamento} style={{ display: 'block', width: '100%' }}></img>
+        <a className='links' href="/casamentos" style={{
+          position: 'absolute',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
+          zIndex: '1',
+          textDecoration: 'none',
+          fontSize: '45px', 
+          color: '#FFFFFF',
+          background: '#7F00B2',
+          width: '22%',
+          borderRadius: '8px',
+          alignItems: 'center',
+          border: '2px solid #7F00B2'
+        }}>Casamentos</a>
+      </div>
+      <div className='contato'>
+        <br/>
         <h1 className='sobre'>Entre em contato para começarmos a planejar. Agora que as dúvidas foram esclarecidas aproveite e crie seu convite personalizado agora, basta clicar no botão abaixo.</h1>
         <button className='custom-btn' onClick={() => enviarMensagemWhatsApp()}>Entre em contato</button>
       </div>
       <p>Site criado pela Maju Holding.</p>
-      <br/>
+      <br />
       <p><i><b>Localizada em São José do Rio Preto-SP</b></i></p>
     </div>
   );

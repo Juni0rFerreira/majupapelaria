@@ -5,20 +5,21 @@
 }
 
 .App-header {
-  min-height: 50vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 1vmin);
   color: white;
+  
 }
 
 .links-categorias {
   display: flex;
   justify-content: center;
   gap: 60px;
-  background-color: #7F00B2;
+  background-color: #7F4CA5;
   align-items: center;
   margin-top: 20px;
   width: 100%;
