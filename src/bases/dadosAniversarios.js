@@ -48,7 +48,7 @@ const aniversarios = [
   {
     nome: "Kit Festa Opção 1",
     descricao: "12 unidades de cada",
-    valor: 259.90,
+    valor: 259.99 ,
     imagem: kitfestamickeyeminie,
   },
   
