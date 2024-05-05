@@ -42,7 +42,7 @@ const sazonais = [
   },  
   {
     nome: "Caixa Sextavada Dia das Mães",
-    descricao: "",
+    descricao: "10x11.5",
     valor: 12.99,
     imagem: caixasextavadadiadasmaes,
   },  

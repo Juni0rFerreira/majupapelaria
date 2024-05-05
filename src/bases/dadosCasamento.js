@@ -12,6 +12,12 @@ import manualdospadrinhos from '../assets/imgs/casamentos/manualdospadrinhos.jpg
 import caixadoisbombons from '../assets/imgs/casamentos/caixadoisbombons.jpg';
 import caixapadrinhoscamille from '../assets/imgs/casamentos/caixapadrinhoscamille.jpg';
 import lagrimasdealegria from '../assets/imgs/casamentos/lagrimasdealegria.jpg';
+import convitecasamentostephanye from '../assets/imgs/casamentos/convitecasamentostephanye.jpeg';
+import conviteisabella from '../assets/imgs/casamentos/conviteisabella.jpeg';
+import menuplacaisabella from '../assets/imgs/casamentos/menuplacaisabella.jpeg';
+import lagrimasdealegriaisabella from '../assets/imgs/casamentos/lagrimasdealegriaisabella.jpeg';
+import convitecasamentosophia from '../assets/imgs/casamentos/convitecasamentosophia.jpeg';
+import manualdospadrinhoslivro from '../assets/imgs/casamentos/manualdospadrinhoslivro.jpeg';
 
 const casamentos = [
 
@@ -98,6 +104,42 @@ const casamentos = [
     descricao: "11x6.5",
     valor: 1.50,
     imagem: lagrimasdealegria,
+  },
+  {
+    nome: "Convite Casamento Stephanye ",
+    descricao: "22x16",
+    valor: 4.50,
+    imagem: convitecasamentostephanye,
+  },
+  {
+    nome: "Convite Casamento Isabella ",
+    descricao: "22x16",
+    valor: 4.99,
+    imagem: conviteisabella,
+  },
+  {
+    nome: "Menu Placa",
+    descricao: "14.5x9.2",
+    valor: 2.99,
+    imagem: menuplacaisabella,
+  },
+  {
+    nome: "Lágrimas de Alegria",
+    descricao: "11x6",
+    valor: 1.50,
+    imagem: lagrimasdealegriaisabella,
+  },
+  {
+    nome: "Convite Casamento Sophia",
+    descricao: "15x21",
+    valor: 4.99,
+    imagem: convitecasamentosophia,
+  },
+  {
+    nome: "Manual dos Padrinhos Livro",
+    descricao: "21x10",
+    valor: 6.99,
+    imagem: manualdospadrinhoslivro,
   },
   
 ];
