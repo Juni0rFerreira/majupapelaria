@@ -138,7 +138,7 @@ const casamentos = [
   {
     nome: "Manual dos Padrinhos Livro",
     descricao: "21x10",
-    valor: 6.99,
+    valor: 3.99,
     imagem: manualdospadrinhoslivro,
   },
   
